@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --font-arabic: 'Amiri', serif;
+  --font-ui: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-ui);
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  line-height: 2.2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
